@@ -9,7 +9,7 @@ import WeatherDetail from "./components/WeatherDetail";
 import Form from "./components/Form";
 import Title from "./components/Title";
 
-const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_API_KEY
+const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_API_KEY
   }&lang=es&q=`;
 
 function App() {
@@ -81,3 +81,7 @@ function App() {
 }
 
 export default App;
+
+// https://api.weatherapi.com/v1/current.json?key=322fd19902bd49cf9bd124047230702&q=London&aqi=no
+
+// http://api.weatherapi.com/v1/current.json?key=322fd19902bd49cf9bd124047230702&q=London&aqi=no
