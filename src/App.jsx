@@ -12,7 +12,7 @@ import Title from "./components/Title";
 const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_API_KEY
   }&lang=es&q=`;
 
-function App() {
+const App = () => {
   const [city, setCity] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState({
