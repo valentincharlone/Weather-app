@@ -10,7 +10,9 @@ import WeatherDetail from "./components/WeatherDetail";
 import Form from "./components/Form";
 import Title from "./components/Title";
 
-const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${process.env.VITE_API_KEY}&lang=es&q=`;
+
+const KEY = '322fd19902bd49cf9bd124047230702'
+const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${KEY}&lang=es&q=`;
 
 //https://api.weatherapi.com/v1/current.json?key=322fd19902bd49cf9bd124047230702&q=London&aqi=no
 
